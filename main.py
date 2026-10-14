@@ -14,6 +14,11 @@ client = AzureOpenAI(
 )
 
 
+try:
+    result = repo_health('susheer','electron-printer')
+    print(result)
+except:
+    print("No Internet: Please check internet connection")
 
-result = repo_health('susheer','electron-printer')
-print(result)
+
+
