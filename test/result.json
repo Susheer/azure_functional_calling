@@ -1,0 +1,15 @@
+{
+  "repository": "Susheer/electron-printer",
+  "description": "Supports Node.js versions from 8.0.0 onwards, including the latest versions, thanks to the transition to N-API.",
+  "stars": 11,
+  "forks": 7,
+  "open_issues_and_prs": 0,
+  "archived": false,
+  "last_push": "2026-07-17T14:03:35Z",
+  "latest_commit": {
+    "message": "fix: Failure loading build files (#7)",
+    "date": "2026-07-17T14:03:29Z"
+  },
+  "sampled_commits": 5,
+  "checked_at": "2026-10-14T15:35:43.656809+00:00"
+}
