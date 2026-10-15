@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timezone
 from .github_get import github_get
 
-def repo_health(owner:str, repo: str)->dict[str,any]:
+def get_repository_health(owner:str, repo: str)->dict[str,any]:
     pairs = ((owner, "owner"),(repo, "repo"))
     is_valid = False
     for pair in pairs:

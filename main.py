@@ -1,4 +1,4 @@
-from src.repo_health import repo_health
+from src.get_repository_health import get_repository_health
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 import os
@@ -15,7 +15,7 @@ client = AzureOpenAI(
 
 
 try:
-    result = repo_health('susheer','electron-printer')
+    result = get_repository_health('susheer','electron-printer')
     print(result)
 except:
     print("No Internet: Please check internet connection")
