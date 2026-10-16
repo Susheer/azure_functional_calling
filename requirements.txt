@@ -2,3 +2,4 @@
 openai
 dotenv
 requests
+azure-identity
